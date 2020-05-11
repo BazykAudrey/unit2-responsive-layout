@@ -7,3 +7,28 @@ body {
   font-family: 'Nunito', sans-serif;
   color: #4a4a4a;
 }
+
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+.projects {
+  background-color: #fff;
+}
