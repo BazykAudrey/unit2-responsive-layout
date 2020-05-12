@@ -1,6 +1,9 @@
 /* =================================
   Base Element Styles
 ==================================== */
+*{
+  box-sizing: border-box;
+}
 
 body {
   background-color: #d4d5d8;
@@ -38,13 +41,33 @@ img {
   Base Layout Styles
 ==================================== */
 
-.wrapper {
+.container {
   width: 80%;
   margin: 0 auto;
+  background-color: #fff;
 }
 
-.main-content {
-  width: 100%;
-  margin: 0 auto;
-  background-color: #fff;
+/* ---- Navigation ---- */
+
+
+/* =================================
+  Media Queries
+==================================== */
+
+/* ---- Tablet Size ---- */
+
+@media (min-width: 769px) {
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+   }
+
+
+/* ---- Float Clearfix ---- */
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both;
 }

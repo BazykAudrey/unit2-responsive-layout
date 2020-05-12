@@ -11,8 +11,8 @@
 
 
   <body>
-  <div class="wrapper">
-    <header>
+  <header class="main-header">
+    <div class="container">
       <h1>Audrey Bazyk</h1>
         <nav>
           <ul>
@@ -21,62 +21,69 @@
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
-
-<!-- Intro Paragraph and Profile Image -->
-        <img src="images/responsive-layout-profile.png" alt="Avatar Profile Image" class="intro-image">
-        <p>Hi! I’m a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </div>
     </header>
 
+<!-- Intro Paragraph and Profile Image Banner -->
+    <div class="banner">
+      <img src="images/responsive-layout-profile.png" alt="Avatar Profile Image" class="intro-image">
+      <p>Hi! I’m a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and am excited to put all my skills to use!</p>
+    </div>
+
 <!-- Portfolio Projects -->
-    <main>
-      <section class="main-content">
-        <h2>Portfolio</h2>
+  <div class="container">
+    <h2>Portfolio</h2>
 
-        <img src="images/portfolio-1.png" alt="Marketing Page Image">
-        <h3>Marketing Page</h3>
-        <p>This project shows the front page of a marketing website meant for a specific business I’m interested in.</p>
+    <div class="first column">
+      <img src="images/portfolio-1.png" alt="Marketing Page Image">
+      <h3>Marketing Page</h3>
+      <p>This project shows the front page of a marketing website meant for a specific business I’m interested in.</p>
+    </div>
 
-        <img src="images/portfolio-2.png" alt="Search Page Image">
-        <h3>Search Page</h3>
-        <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+    <div class="second column">
+      <img src="images/portfolio-2.png" alt="Search Page Image">
+      <h3>Search Page</h3>
+      <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+    </div>
 
-        <img src="images/portfolio-3.png" alt="Travel App Image">
-        <h3>Travel App</h3>
-        <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+    <div class="third column">
+      <img src="images/portfolio-3.png" alt="Travel App Image">
+      <h3>Travel App</h3>
+      <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+    </div>
 
-        <img src="images/portfolio-4.png" alt="Map of Favorite Spots Image">
-        <h3>Map of Favorite Spots</h3>
-        <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
+      <img src="images/portfolio-4.png" alt="Map of Favorite Spots Image">
+      <h3>Map of Favorite Spots</h3>
+      <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
 
-        <img src="images/portfolio-5.png" alt="Photo Gallery Image">
-        <h3>Photo Gallery</h3>
-        <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+      <img src="images/portfolio-5.png" alt="Photo Gallery Image">
+      <h3>Photo Gallery</h3>
+      <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
 
-        <img src="images/portfolio-6.png" alt="Calculator Image">
-        <h3>Calculator</h3>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-      </section>
+      <img src="images/portfolio-6.png" alt="Calculator Image">
+      <h3>Calculator</h3>
+      <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+  </div>
 
 <!-- Contact Information -->
-      <section class="contact">
-        <h2>Contact</h2>
-        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-        <p>Phone +1 (111) 555-1234</p>
-        <p>Email email@yoursite.com</p>
-      </section>
-    </main>
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+      <p>Phone +1 (111) 555-1234</p>
+      <p>Email email@yoursite.com</p>
+    </section>
+  </main>
 
 <!-- Footer Section with Navigation -->
-    <footer>
-      <p>Audrey Bazyk</p>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-    </footer>
-  </div>
+  <footer>
+    <p>Audrey Bazyk</p>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+  </footer>
 </body>
 </html>
