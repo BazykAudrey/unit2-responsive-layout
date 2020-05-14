@@ -14,16 +14,21 @@ h1 {
   margin-top: 0;
 }
 
-h2 {
+h3 {
   text-transform: uppercase;
+  padding-bottom: 40px;
 }
 
 a {
   text-decoration: none;
+  color: #4a4a4a;
 }
 
 ul li {
   list-style: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #fff;
 }
 
 p {
@@ -45,30 +50,15 @@ img {
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  padding: 40px 25px;
+  text-align: center;
 }
 
 .main-footer {
   background-color: #fafafa;
 }
-
-/* ---- Navigation ---- */
-
-
-/* =================================
-  Media Queries
-==================================== */
-
-/* ---- Tablet Size ---- */
-
-@media (min-width: 769px) {
-
-  .container {
-    width: 90%;
-    margin: 0 auto;
-   }
-
 
 /* ---- Float Clearfix ---- */
 
@@ -77,3 +67,14 @@ img {
   display: table;
   clear: both;
 }
+
+/* =================================
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+   }
