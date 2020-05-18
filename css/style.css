@@ -59,6 +59,16 @@ img {
   margin: 0 auto;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 1.325em;
+  line-height: 2em;
+}
+
 /* =================================
   Base Layout Styles
 ==================================== */
@@ -70,6 +80,12 @@ img {
   margin: 0 auto;
   display: inline-block;
   background-color: #f7f5f5;
+}
+
+.intro-image {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 /* ---- Projects Container ---- */
