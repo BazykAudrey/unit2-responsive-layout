@@ -71,11 +71,15 @@ ul li {
   Base Layout Styles
 ==================================== */
 
+.background {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
 .main-header {
   width: 100%;
   margin: 0 auto;
   display: inline-block;
-  background-color: #f7f5f5;
 }
 
 .main-header p {
@@ -107,7 +111,6 @@ ul li {
 .contact {
   width: 100%;
   margin: 0 auto;
-  background-color: #f7f5f5;
   text-align: center;
   padding: 40px 25px;
   border-bottom: 1px solid #b0b5b7;
@@ -116,7 +119,6 @@ ul li {
 .main-footer {
   width: 100%;
   margin: 0 auto;
-  background-color: #f7f5f5;
   padding: 25px 25px;
 }
 
@@ -185,6 +187,83 @@ ul li {
      display: inline-block;
      float: left;
      width: 50%;
+     padding: 10px 10px;
+   }
+
+   .contact {
+     display: block;
+   }
+
+   .contact p {
+     width: 90%;
+     margin: 0 auto;
+   }
+
+   .main-footer p {
+     display: inline-block;
+   }
+
+   .main-footer p a {
+     display: none;
+   }
+
+   .main-footer nav {
+     display: inline-block;
+     float: right;
+   }
+
+   .main-footer nav ul li {
+     font-size: 1.2em;
+     background-color: inherit;
+     float: left;
+     padding-left: 20px;
+   }
+
+}
+
+@media (min-width: 1024px) {
+
+  .main-header {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .main-header h1 {
+    display: inline-block;
+    float: left;
+  }
+
+  .main-header nav {
+    display: inline-block;
+    float: left;
+  }
+
+  .main-header nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    background-color: inherit;
+  }
+
+  .intro {
+    display: block;
+    text-align: left;
+  }
+
+  .intro-image {
+    display: inline;
+    float: right;
+    padding: 0 20px;
+  }
+
+  .container {
+    width: 90%;
+    margin: 0 auto;
+   }
+
+   .column {
+     display: inline-block;
+     float: left;
+     width: 33%;
      padding: 10px 10px;
    }
 
