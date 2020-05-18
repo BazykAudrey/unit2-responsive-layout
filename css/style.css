@@ -73,8 +73,6 @@ ul li {
   Base Layout Styles
 ==================================== */
 
-/* ---- Navigation and Main Header ---- */
-
 .main-header {
   width: 100%;
   margin: 0 auto;
@@ -145,6 +143,34 @@ ul li {
 
 @media (min-width: 768px) {
 
+  /* ---- Navigation and Main Header ---- */
+
+  .main-header {
+    padding-bottom: 40px;
+  }
+
+  .main-header nav {
+    display: block;
+    text-align: center;
+  }
+
+  .main-header nav ul li {
+    display: inline-block;
+    padding: 0 30px;
+    background-color: inherit;
+  }
+
+  .main-header p {
+    display: block;
+    text-align: left;
+  }
+
+  .intro-image {
+    display: inline-block;
+    float: right;
+    padding: 0 20px;
+  }
+
   .container {
     width: 90%;
     margin: 0 auto;
@@ -159,6 +185,11 @@ ul li {
 
    .contact {
      display: block;
+   }
+
+   .contact p {
+     width: 90%;
+     margin: 0 auto;
    }
 
 }
