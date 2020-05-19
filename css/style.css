@@ -152,7 +152,7 @@ ul li {
   Media Queries
 ==================================== */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
 
   .main-header {
     width: 100%;
