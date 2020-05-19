@@ -153,7 +153,9 @@ ul li {
 @media (min-width: 768px) {
 
   .main-header {
-    padding-bottom: 40px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
   }
 
   .main-header nav {
@@ -168,13 +170,19 @@ ul li {
   }
 
   .main-header p {
-    display: block;
+    padding: 0;
     text-align: left;
   }
 
-  .intro-image {
+  .intro {
     display: inline-block;
-    padding-left: 20px;
+    width: 100%;
+  }
+
+  .intro-image {
+    display: inline;
+    float: right;
+    padding-left: 40px;
   }
 
   .container {
@@ -245,11 +253,12 @@ ul li {
 
   .main-header p {
     padding: 0;
+    text-align: left;
   }
 
   .intro {
     display: inline-block;
-    text-align: left;
+    width: 100%;
   }
 
   .intro-image {
